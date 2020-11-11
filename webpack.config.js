@@ -39,12 +39,12 @@ module.exports = {
         ]
       },
       {
-        test: /\.png$/,
+        test: /\.(png|jp(e*)g|svg|gif)$/,
         use: [
           {
-            loader: 'url-loader',
+            loader: 'file-loader',
             options: {
-              mimetype: 'image/png'
+              name: 'images/[hash]-[name].[ext]',
             }
           }
         ]

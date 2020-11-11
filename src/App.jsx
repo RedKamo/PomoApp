@@ -4,6 +4,7 @@ import { Route } from 'react-router';
 
 import Layout from './pages/Layout';
 import SignUp from './components/SignUp';
+import './assets/App.scss';
 
 function App(){
   return (
