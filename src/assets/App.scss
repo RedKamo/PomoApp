@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,900&display=swap');
+
+//import component style
+
+
+
+
+//@font-family
+$primary-font: 'Roboto', sans-serif;
+
+//@font-color title
+$font-secondary: #fff;
+$title-forms: #7b4daf;
+
 * {
   margin: 0;
   padding: 0;
-  background-color: red;
-  color: yellow;
+}
+
+body{
+  font-family: $primary-font;
 }

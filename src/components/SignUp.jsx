@@ -1,7 +1,8 @@
 import React from 'react';
 
 import '../assets/styles/SignUp.scss';
-import img_signup from '../assets/images/img_signup.svg';
+//import img_task from '../assets/images/img_task.svg';
+import img_test from '../assets/images/img_test.jpg';
 
 const SignUp =()=>{
 
@@ -9,13 +10,13 @@ const SignUp =()=>{
     <React.Fragment>
     <div className="signup__container">
       <div className="signup__image">
-        <img src={img_signup } alt=""/>
+        <img src={img_test} alt=""/>
       </div>
       <div className="signup__form">
-        <form className="form__container" action="">
-          <h1 className="form__title">
+      <h1 className="form__title">
             Create your account
           </h1>
+        <form className="form__container" action="">
           <div className="form__group">
             <label htmlFor="name">
               <div className="label__text">Name</div>
