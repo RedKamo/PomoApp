@@ -21,6 +21,7 @@
 
     img{
       width: 100%;
+      //border: 1px solid red;
     }
 
     h2{
@@ -39,6 +40,7 @@
     height: 100vh;
     
     img{
+      margin-left: -0.9em;
       //border: 1px solid violet;
     }
 
@@ -47,14 +49,16 @@
       height: auto;
       //background-color: #2ffea4;
       border-radius: 8px;
-      text-align: center;
+      //text-align: center;
 
       p{
-        margin: 1.5em;
+        font-size: 14px;
+        margin: 1.5em 0;
+        color: #8b8c89;
       }
 
       &__label{
-        margin: 1.3em;
+        margin: 1.3em 0;
         
 
         input{
