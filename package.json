@@ -1,12 +1,12 @@
 {
-  "name": "PomodoroApp",
+  "name": "pomodoroapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development"
+    "dev": "webpack-dev-server --open --mode development"
   },
   "keywords": [],
   "author": "Camilo Suarez <camiloandressuarez1@gmail.com>",
