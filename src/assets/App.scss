@@ -13,11 +13,22 @@ $title-font: 'Open Sans', sans-serif;
 $font-secondary: #fff;
 $title-forms: #7b4daf;
 
-* {
+//@border-colors
+$border-light: #EBEBEB;
+$border-green: #2FFEA4;
+
+
+body{
   margin: 0;
   padding: 0;
 }
 
 body{
   font-family: $primary-font;
+}
+
+:global{
+  .react-icons{
+    background-color: red;
+  }
 }
